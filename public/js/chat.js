@@ -1,6 +1,6 @@
-const socketio = require('socket.io')
-const io = socketio(server)
-const socket = io()
+// const socketio = require('socket.io')
+// const io = socketio(server)
+const socket = socketio(server)
 
 // Elements
 const $messageForm = document.querySelector('#message-form')
